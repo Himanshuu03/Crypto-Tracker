@@ -81,6 +81,7 @@
         visibility: hidden;
     }
     .coin-price {
+      margin-top: 3.5%;
         width: 110px;
       }
     .coin-volume{
