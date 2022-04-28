@@ -5,7 +5,6 @@
   
   .coin-row {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     height: 80px;
     border-bottom: 1px solid #d7d7d7;
@@ -67,6 +66,10 @@
   @media only screen and (max-width: 786px) {
     .coin-row{
         width: 300px;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        right: 0;
     }
     .coin{
     display: flex;
@@ -78,19 +81,20 @@
         width: 100px;
       }
     .coin-symbol{
-        visibility: hidden;
+      display: none;
     }
     .coin-price {
       margin-top: 3.5%;
+      padding-left: 20%;
         width: 110px;
       }
     .coin-volume{
-        visibility: hidden;
+      display: none;
     }
     .coin-marketcap{
-        visibility: hidden;
+      display: none;
     }
     .coin-percent{
-        visibility: hidden;
+      display: none;
     }
   }
